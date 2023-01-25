@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.main__div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.dogs__div-container {
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.dogs__div {
+    margin: 2rem auto;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    /* display: flex !important; */
+
+
+}
+
+.dogs__div img {
+    display: flex;
+    width: 97%;
+    height: 97%;
+}
+
+.main__btn {
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.main__btn button {
+    margin: 2rem;
+    padding: 1rem;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    line-height: 55px;
+
+}
+
+@media screen and (max-width: 992px) {
+    .main__btn button {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
