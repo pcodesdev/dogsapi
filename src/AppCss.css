@@ -26,9 +26,9 @@
 }
 
 .dogs__div img {
-    display: flex;
-    width: 97%;
-    height: 97%;
+    width: 100;
+    height: 100;
+
 }
 
 .main__btn {
@@ -48,5 +48,10 @@
     .main__btn button {
         font-size: 40px;
         line-height: 45px;
+    }
+
+    .dogs__div img {
+        height: 95%;
+        width: 95%;
     }
 }
